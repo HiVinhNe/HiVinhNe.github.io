@@ -1,5 +1,5 @@
 ---
-description: Blog tự học của HiVinhNe — nơi ghi chép và chia sẻ kiến thức mỗi ngày
+description: Blog tự học của P4N1C — nơi ghi chép và chia sẻ kiến thức mỗi ngày
 hide:
   - navigation
   - toc
@@ -9,7 +9,7 @@ hide:
 
 <div class="hero-emoji">🚀</div>
 
-# HiVinhNe
+# P4N1C
 
 <p class="hero-sub">Hành trình <strong>tự học</strong> — ghi lại từng bước tiến, chia sẻ những gì đã hiểu, và nhìn lại thấy mình đi xa hơn bao nhiêu.</p>
 

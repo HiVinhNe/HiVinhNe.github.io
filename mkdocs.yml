@@ -1,7 +1,6 @@
-site_name: HiVinhNe — Self Learning
+site_name: P4N1C — Self Learning
 site_description: Ghi chép và chia sẻ kiến thức trong quá trình tự học
-site_url: https://hivinhne.github.io
-repo_url: https://github.com/HiVinhNe/HiVinhNe.github.io
+site_url: https://p4n1c.pages.dev
 repo_name: HiVinhNe/HiVinhNe.github.io
 edit_uri: ""
 
@@ -68,7 +67,7 @@ extra:
     - icon: fontawesome/brands/github
       link: https://github.com/HiVinhNe
       name: GitHub
-  copyright: "&copy; 2026 HiVinhNe — Hành trình tự học"
+  copyright: "&copy; 2026 P4N1C — Hành trình tự học"
 
 extra_css:
   - stylesheets/extra.css
