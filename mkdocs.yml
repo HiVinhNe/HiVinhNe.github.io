@@ -1,8 +1,8 @@
 site_name: P4N1C — Self Learning
 site_description: Ghi chép và chia sẻ kiến thức trong quá trình tự học
-site_url: https://p4n1c.github.io
-repo_url: https://github.com/p4n1c/p4n1c.github.io
-repo_name: p4n1c/p4n1c.github.io
+site_url: https://hivinhne.github.io
+repo_url: https://github.com/HiVinhNe/HiVinhNe.github.io
+repo_name: HiVinhNe/HiVinhNe.github.io
 
 theme:
   name: material

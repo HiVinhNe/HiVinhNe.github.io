@@ -9,5 +9,5 @@ Mình đang tự học lập trình và công nghệ, và đây là nơi mình v
 
 ## Liên hệ
 
-- GitHub: [@p4n1c](https://github.com/p4n1c)
+- GitHub: [@HiVinhNe](https://github.com/HiVinhNe)
 - Email: *(điền vào đây)*
