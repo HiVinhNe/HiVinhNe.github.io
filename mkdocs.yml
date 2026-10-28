@@ -1,0 +1,67 @@
+site_name: P4N1C — Self Learning
+site_description: Ghi chép và chia sẻ kiến thức trong quá trình tự học
+site_url: https://p4n1c.github.io
+repo_url: https://github.com/p4n1c/p4n1c.github.io
+repo_name: p4n1c/p4n1c.github.io
+
+theme:
+  name: material
+  language: vi
+  palette:
+    # Hệ sáng
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Chuyển sang tối
+    # Hệ tối
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Chuyển sang sáng
+  font:
+    text: Roboto
+    code: Roboto Mono
+  features:
+    - navigation.top
+    - navigation.sections
+    - navigation.expand
+    - navigation.instant
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - toc.follow
+
+plugins:
+  - search
+  - blog:
+      blog_dir: blog
+      post_date_format: "dd/MM/yyyy"
+      post_excerpt: required
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.mark
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - tables
+  - footnotes
+  - attr_list
+  - md_in_html
+  - toc:
+      permalink: true
