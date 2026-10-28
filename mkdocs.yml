@@ -3,37 +3,56 @@ site_description: Ghi chép và chia sẻ kiến thức trong quá trình tự h
 site_url: https://hivinhne.github.io
 repo_url: https://github.com/HiVinhNe/HiVinhNe.github.io
 repo_name: HiVinhNe/HiVinhNe.github.io
+edit_uri: ""
 
 theme:
   name: material
   language: vi
+  favicon: assets/images/favicon.svg
+  logo: assets/images/favicon.svg
+  icon:
+    repo: fontawesome/brands/github
   palette:
     # Hệ sáng
-    - scheme: default
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
       primary: indigo
-      accent: indigo
+      accent: violet
       toggle:
-        icon: material/brightness-7
-        name: Chuyển sang tối
+        icon: material/weather-sunny
+        name: Chuyển sang chế độ tối
     # Hệ tối
-    - scheme: slate
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
       primary: indigo
-      accent: indigo
+      accent: violet
       toggle:
-        icon: material/brightness-4
-        name: Chuyển sang sáng
+        icon: material/weather-night
+        name: Chuyển sang chế độ sáng
   font:
-    text: Roboto
-    code: Roboto Mono
+    text: Be Vietnam Pro
+    code: JetBrains Mono
   features:
     - navigation.top
+    - navigation.footer
     - navigation.sections
-    - navigation.expand
     - navigation.instant
+    - navigation.progress
+    - navigation.tracking
+    - announce.dismiss
     - search.suggest
     - search.highlight
+    - search.share
     - content.code.copy
+    - content.code.select
+    - content.tabs.link
     - toc.follow
+    - header.autohide
+
+nav:
+  - Trang chủ: index.md
+  - Blog: blog/index.md
+  - Giới thiệu: about.md
 
 plugins:
   - search
@@ -41,6 +60,21 @@ plugins:
       blog_dir: blog
       post_date_format: "dd/MM/yyyy"
       post_excerpt: required
+      post_readtime_words_per_minute: 220
+
+extra:
+  generator: false
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/HiVinhNe
+      name: GitHub
+  copyright: "&copy; 2026 HiVinhNe — Hành trình tự học"
+
+extra_css:
+  - stylesheets/extra.css
+
+extra_javascript:
+  - javascripts/typewriter.js
 
 markdown_extensions:
   - admonition
@@ -52,10 +86,16 @@ markdown_extensions:
           format: !!python/name:pymdownx.superfences.fence_code_format
   - pymdownx.highlight:
       anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - pymdownx.tabbed:
       alternate_style: true
+  - pymdownx.keys
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - pymdownx.mark
   - pymdownx.tasklist:
       custom_checkbox: true
@@ -63,5 +103,6 @@ markdown_extensions:
   - footnotes
   - attr_list
   - md_in_html
+  - def_list
   - toc:
-      permalink: true
+      permalink: "§"

@@ -1,23 +1,55 @@
-# Chào mừng 👋
+---
+description: Blog tự học của HiVinhNe — nơi ghi chép và chia sẻ kiến thức mỗi ngày
+hide:
+  - navigation
+  - toc
+---
 
-Đây là nơi mình ghi chép và chia sẻ những kiến thức mình đã học được trong quá trình **tự học**.
+<div class="hero" markdown>
 
-::: tip
-Tất cả nội dung nằm trong mục **[Blog](blog/index.md)** — viết bằng Markdown, deploy tự động lên GitHub Pages mỗi khi `git push`.
-:::
+<div class="hero-emoji">🚀</div>
 
-## Blog này nói về gì
+# HiVinhNe
 
-- Kiến thức lập trình, công nghệ mình học được
-- Ghi chú tóm tắt sách, tài liệu
-- Kinh nghiệm vướng mắc và cách khắc phục
+<p class="hero-sub">Hành trình <strong>tự học</strong> — ghi lại từng bước tiến, chia sẻ những gì đã hiểu, và nhìn lại thấy mình đi xa hơn bao nhiêu.</p>
 
-## Hệ thống này xây bằng gì
+<a class="md-button md-button--primary" href="blog/index.md">📚 Đọc blog</a>
+<a class="md-button" href="about/index.md">👋 Giới thiệu</a>
 
-| Thành phần | Công nghệ |
-|---|---|
-| Site generator | MkDocs + Material for MkDocs |
-| Hosting | GitHub Pages |
-| Nội dung | Markdown thuần |
+<p><span id="typewriter"></span><span class="cursor"></span></p>
 
-Xem thêm về mình tại trang [Giới thiệu](about.md).
+</div>
+
+## Chủ đề mình viết
+
+<div class="grid cards" markdown>
+
+- :material-code-braces: **Kiến thức lập trình**
+
+  ---
+
+  Ghi chú những gì học được từ ngôn ngữ, framework, tool — kèm ví dụ chạy được.
+
+- :material-lightbulb-on: **Ghi chú sách & tài liệu**
+
+  ---
+
+  Tóm tắt tinh túy, trích dẫn đáng nhớ, và đánh giá "có đáng đọc không".
+
+- :material-map-outline: **Lộ trình học**
+
+  ---
+
+  Kế hoạch học từng giai đoạn, kết quả đạt được, và những bài học rút ra.
+
+- :material-bug: **Lỗi & cách khắc phục**
+
+  ---
+
+  Những bug làm mình mất bao lâu thì cũng có ngày được ghi lại — để lần sau đỡ đau hơn.
+
+</div>
+
+!!! tip "Blog cập nhật thường xuyên"
+
+    Đọc [bài mới nhất](blog/index.md). Nút tìm kiếm :material-magnify: ở góc phải sẽ giúp bạn lọc nhanh mọi ghi chú trong site.
